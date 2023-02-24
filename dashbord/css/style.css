@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;300&family=Roboto:ital,wght@0,100;1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;600&display=swap');
+
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+body{
+	font-family: 'Raleway', sans-serif;
+}
+li,a{
+	list-style:none;
+	color: white;
+	text-decoration: none;
+	font-family: 'Roboto', sans-serif;
+}
+table {
+	font-family: 'Oswald', sans-serif;
+	font-weight: 200;
+}
+a:hover{
+	text-decoration: underline;
+	color: #74a1ce;
+	transition: 0.5s;
+}
+.nave-bar{
+	background:#0263c1;
+	color:white;
+}
+.pding-top{
+	padding-top: 25px;
+}
+.admin-logo ul{
+	display:flex;
+	justify-content:left;
+}
+.thumb_img img {
+    height: 70px;
+    width: 80px;
+}
+.logo-right ul{
+	display:flex;
+	justify-content:right;
+}
+.logo-right ul li:last-child{
+	padding-left: 15px;
+}
+.admin-logo ul img{
+	height:25px;
+	width:25px;
+	border-radius: 50%;
+	margin:2px;
+	margin-right:10px;
+}
+.thumbnail img{
+	max-height: 350px;
+	max-width: 350px;
+}
+.height{
+	min-height: 500px;
+}
+.siderba{
+	background: #143db9;
+	padding-top: 10px;
+}
+.main-content{
+	padding-top: 20px;
+}
+.main-content {
+    padding: 20px;
+    margin-top: 25px;
+	margin-bottom: 25px;
+	margin-left: 5px;
+    border: 1px solid #cfcfcf;
+}
+.main-footer{
+	background:#0263c1;
+}
+.main-footer p{
+	margin-top: 1rem;
+	color: white;
+	font-family: 'Oswald', sans-serif;
+}
+.bg-non{
+	background-color: #143db9;
+	border: none;
+}
+.sub-ul-list, .sub-ul-list2{
+	display: none;
+}
+.sub-list {
+    margin-left: 20px;
+    padding: 0px 0px  10px 20px;
+
+}
+.sub-list a{ 
+	font-size: 13px;
+}
+.active{
+	display: block ;
+}

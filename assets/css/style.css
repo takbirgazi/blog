@@ -1,0 +1,334 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --black: #030303; /* Defalt: #030303 */
+  --white: #ffffff; /* Defalt: #ffffff */
+  --bgmain: #ecf0f1; /* Defalt: #ecf0f1 */
+}
+
+body {
+  font-family: "Oswald", sans-serif;
+  font-weight: 200;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+a {
+  color: var(--white);
+  transition: 0.5s;
+}
+
+a:hover {
+}
+
+li {
+  list-style: none;
+  color: var(--bgmain);
+}
+
+nav.nave-bar {
+  background: var(--black);
+}
+
+.nav-ul li {
+  list-style: none;
+  margin: 0px 20px -13px 0px;
+  display: block;
+}
+
+.nav-ul li a {
+  font-size: 16px;
+}
+
+.nav-ul li a {
+  color: var(--white);
+  text-decoration: none;
+}
+
+.avater img {
+  width: 50px;
+  height: 50px;
+  border-radius: 3px;
+  margin-top: 3px;
+  margin-right: 10px;
+}
+
+.avater a {
+  border-radius: 3px;
+  color: var(--black);
+  display: block;
+  margin-top: 9%;
+  text-transform: uppercase;
+  font-size: 22px;
+  font-weight: bold;
+  letter-spacing: -2px;
+}
+
+.main {
+  background-color: var(--bgmain);
+  padding-bottom: 15px;
+}
+
+.top-manu {
+  background-color: var(--white);
+}
+
+.blck {
+  background-color: var(--black);
+}
+
+.blck ul li a {
+  margin: 0px 5px;
+  padding: 0px 7px;
+}
+
+.blck ul li:hover {
+  background: var(--bgmain);
+  border-radius: 1px;
+}
+
+.blck ul li:hover a {
+  color: var(--black);
+}
+
+.main-manu {
+  position: sticky;
+  top: 0;
+  z-index: 3;
+}
+.src-inpt input {
+  outline: none;
+  border-radius: 3px;
+  border: none;
+  margin-right: 3px;
+}
+.src-inpt input:hover {
+    outline: none;
+    border-radius: 3px;
+    border: none;
+  }
+.bg-img,
+.bg-img-sm {
+  margin: 7px 7px 0px 0px;
+  background-image: url("../img/download.jpg");
+  height: 300px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: var(--black);
+  opacity: 0.7;
+}
+
+.bg-img-sm {
+  height: 146px;
+}
+.sm-1 {
+  background-image: url("../img/download2.jpg");
+}
+.sm-2 {
+  background-image: url("../img/pizza.jpg");
+}
+
+.rec-large-post {
+  margin-left: 1.5rem;
+}
+
+.rec-large-post h2 {
+  color: #f0f1ff;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.rec-large-post ul li a {
+  font-size: 12px;
+  margin: 0px 5px;
+}
+
+.rec-large-post ul li a:hover {
+  color: #f0f1ff;
+}
+
+.rec-large-post ul li i {
+  margin-right: 5px;
+  font-size: 10px;
+  opacity: 1;
+}
+
+button.btn.btn-danger {
+  background: #fb1e49;
+  border-radius: 0px;
+}
+
+.col-md-8,
+.col-md-3,
+.col-md-4,
+.col-md-12 {
+  padding: 0;
+  margin: 0;
+}
+
+.toggle {
+}
+
+.cat-hed {
+  margin-top: 30px;
+  background: var(--white);
+}
+
+.cat-hed p {
+  padding: 5px;
+  margin-left: 20px;
+  font-weight: bold;
+}
+
+.cat-post,
+.cat-manu {
+  padding: 16px 12px;
+  background: var(--white);
+}
+
+.cat-post h2 {
+  color: #59595e;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.cat-post a {
+  color: #59595e;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.cat-post a {
+  font-size: 12px;
+  margin: 0px 5px;
+}
+
+.cat-posta:hover {
+  color: #f0f1ff;
+}
+
+.cat-post i {
+  margin-right: 5px;
+  font-size: 10px;
+  opacity: 1;
+}
+
+.cat-manu {
+  padding: 16px 12px;
+  background: var(--white);
+  margin-left: 20px;
+}
+
+.cat-manu p {
+  font-size: 20px;
+  margin-top: -5px;
+  font-weight: bold;
+  color: #5f5f64;
+}
+
+.cat-manu ul li {
+  background: #44445e;
+  padding: 1px 10px;
+  margin: 5px;
+}
+
+.cat-manu ul li a:hover {
+  color: var(--white);
+}
+.rec-post {
+  padding: 12px 12px;
+}
+.rec-post img {
+  max-width: 100%;
+  max-height: 100%;
+  margin: 0 auto;
+  align-items: center;
+  display: flex;
+}
+.mrg-l {
+  margin: 5px 5px 0px 0px;
+}
+/*======================
+* Speacal CSS
+========================*/
+.abt-mg {
+  border-radius: 50%;
+  height: 150px;
+  width: 300px;
+  position: relative;
+}
+.abt-con {
+  padding: 12px 12px;
+  border-radius: 20px;
+  margin-left: -20px;
+  margin-top: 45px;
+  padding-left: 30px;
+  padding-top: 30px;
+}
+a.post_hed {
+  margin: 0 !important;
+  font-size: inherit !important;
+}
+.sing_img {
+  height: 100%;
+  width: 100%;
+}
+/*======================
+* Speacal CSS
+========================*/
+
+/*==================
+Footer Section CSS 
+====================*/
+.brdr {
+  border-bottom: 1px solid;
+  padding-bottom: 35px;
+}
+
+.contc {
+  margin-top: 30px;
+  padding: 16px;
+}
+
+.contc h4 {
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.contc p {
+  font-size: 13px;
+  letter-spacing: 0.5px;
+}
+
+.contc ul {
+  margin-top: -5px;
+}
+
+.contc li {
+  margin-bottom: 5px;
+}
+
+.contc a {
+  font-size: 13px;
+  letter-spacing: 0.5px;
+}
+
+.ftr-ul li {
+  padding-left: 10px;
+}
+
+.ft-con i {
+  padding-right: 10px;
+  padding-top: 6px;
+}
