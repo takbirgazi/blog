@@ -8,16 +8,28 @@
     <div class="container">
         <div class="row blck">
             <div class="col-md-10">
-                <ul class="d-flex my-2">
-                    <li><a href="index.php"><i class="fa-solid fa-house"></i></a></li>
-                    <li><a href="#">Bangladesh</a></li>
-                    <li><a href="#">Programming</a></li>
-                    <li><a href="#">Web Development</a></li>
-                    <li><a href="#">Nature</a></li>
-                    <li><a href="#">Computer</a></li>
-                    <li><a href="#">Healh</a></li>
-                    <li><a href="#">Games</a></li>
-                </ul> 
+                <div onclick="change();" class="mbl-mnu">
+                    <a onclick=" return false;" href="#"><i class="fa-solid fa-bars"></i></a>
+                    <ul class="d-flex my-2 mbl-flx" id="select-mbl-flx">
+                        <li><a href="#">Programming</a></li>
+                        <li><a href="#">Web Development</a></li>
+                        <li><a href="#">Nature</a></li>
+                        <li><a href="#">Computer</a></li>
+                        <li><a href="#">Healh</a></li>
+                        <li><a href="#">Games</a></li>
+                    </ul>
+                </div>
+                <div class="main-manu-ul">
+                    <ul class="d-flex my-2">
+                        <li><a href="index.php"><i class="fa-solid fa-house"></i></a></li>
+                        <li><a href="#">Programming</a></li>
+                        <li><a href="#">Web Development</a></li>
+                        <li><a href="#">Nature</a></li>
+                        <li><a href="#">Computer</a></li>
+                        <li><a href="#">Healh</a></li>
+                        <li><a href="#">Games</a></li>
+                    </ul>
+                </div>
             </div>
             <div class="col-md-2">
                 <ul class="d-flex justify-content-end my-2">

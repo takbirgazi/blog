@@ -66,5 +66,5 @@ require_once("temp/head.php");
     /*===========================
     * Script File Include Here.
     ===========================*/
-    require_once("temp/script.php");
+    require_once("temp/script.php"); 
     ?>

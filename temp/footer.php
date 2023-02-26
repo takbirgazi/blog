@@ -59,7 +59,7 @@
         <!-- Bottom Footer -->
         <div class="row mt-3">
             <div class="col-md-6">
-                <p>Copyright &copy; 2023 All Rights Reserved.</p>
+                <p>Copyright &copy; <?php echo date("Y");?> All Rights Reserved.</p>
             </div>
             <div class="col-md-6">
                 <ul class="d-flex align-items-end justify-content-end ftr-ul">

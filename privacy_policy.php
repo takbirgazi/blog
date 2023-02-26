@@ -81,7 +81,7 @@ require_once("temp/head.php");
                             <h4>Contact Information</h4>
 
                             <p>If you have any questions about this Privacy Policy, please contact us at
-                                <b>takbirgazib@gmail.com</b>
+                                <b>takbirgazibd@gmail.com</b>
                             </p>
 
                             <i>This Privacy Policy is effective as of 2023.</i>

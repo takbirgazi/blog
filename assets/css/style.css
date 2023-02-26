@@ -84,6 +84,7 @@ nav.nave-bar {
 
 .blck {
   background-color: var(--black);
+  margin-right: -8px;
 }
 
 .blck ul li a {

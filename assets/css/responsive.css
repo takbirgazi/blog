@@ -1,7 +1,43 @@
+/*============================
+ Responsive CSS
+==============================*/
 
-@media screen and (max-width: 765px) {
-    .toggle{
-        display: none;
-    }
+.mbl-mnu {
+  display: none;
+}
+
+.mbl-flx {
+  display: none !important;
+  flex-direction: column;
+  background: #030303a3;
+  margin-left: -15px;
+  border-radius: 0px 0px 3px 0px;
+  transition: 0.5s;
+}
+.mbl-flx li {
+  padding: 3px;
+}
+.mbl-d-blck {
+    display: block !important;
   }
-  
+
+/*============================
+  Media Query for responsive
+==============================*/
+@media screen and (max-width: 770px) {
+  .main-manu-ul {
+    width: 20%;
+  }
+  .main-manu-ul {
+    display: none;
+  }
+  .mbl-mnu {
+    display: block;
+    position: absolute;
+    top: 8px;
+    z-index: 4;
+  }
+  .flex{
+    align-items: center;
+  }
+}
