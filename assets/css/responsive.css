@@ -35,7 +35,7 @@
     display: block;
     position: absolute;
     top: 8px;
-    z-index: 4;
+    z-index: 5;
   }
   .flex{
     align-items: center;
